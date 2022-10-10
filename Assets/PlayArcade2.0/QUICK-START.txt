@@ -1,0 +1,76 @@
+Version 2.2
+
+PlayArcade:
+This package is nearly PlugNPlay, assuming you have a start scene, and a game+ scene.
+If not, a small bit of additional coding is required.
+
+Use the GameCoin texture, material and/or 3d object wherever you wish. They are automatically
+replaced with the creators content.
+
+Drag the PlayArcade object into your start scene. Its a singleton, so you can always access it
+with PlayArcadeIntegration.Instance.variable/method.
+
+You can either use the nested start button, or follow its layout with your own. If you change it, tell
+the script inspector. Same goes for the player name, just drag it into your scene and spice up as desired.
+
+If you're scene+game, set your scenes name that you want the start button to call. If you're a single
+scene type of game, you'll need to open PlayArcadeIntegration.cs, jump to buttonStartGameRequest() and
+edit the scene loader to whatever method you require.
+All other handling of credits, not enough, etc. is done for you.
+
+Set your developer ID (from Playarcade first page), as well as your game_id and api_key (Playarcade 
+game page)
+
+Tick Dev Build on when you're testing in the editor, and off when you build it for the arcade.
+
+PlayLeaderboard:
+Drag the leaderboard object into your game scene. Edit your last line of code before opening the 
+leaderboard to be PlayArcadeIntegration.Instance.SubmitScore((int)players_score, "optional_data");
+OptionalData is in the format of "Cars_Smashed:23|Premium_Earned:5". Properly done, those values will
+show on your games home page.
+
+Ensure your code is somewhere, somehow controlling the opening of the leaderboard. ie, if you already have
+a game over screen, replace it with this. It will build itself, and show once its done. (if players 
+remain blank, you're not receiving a reply from your submit score)
+
+Open all the text elements of the board and replace with the font/color/look of your own choice.
+Check the leaderboard script on the prefab, you'll need to tell it your starting scenes name. The main
+menu button will bring you to that scene.
+ 
+PlayStore:
+ Drag the prefab into any scene you wish. Add a button that activates the object. It will build itself base on
+ the stored data in Playarcade. It's up to you to add the purchased item to your game. It's stored in a few places,
+ the easiest being <PlayShop>().shopItems[] The .lockState value determines if its owned.
+ Your PlayArcade object needs to know about your shop, ensure it's dragged into the inspector. I've placed the
+ object within the PlayArcade object and set this for you, but you're welcome to place it elsewhere. The shop
+ listener field can be any file you wish though you'll probably want your game manager or the player object
+ itself. In that file, add something like this:
+ 		public void ShopListener(string application_credit_item_id)
+ 		{
+ 			if (application_credit_item_id == "item_4")
+ 				addAutoFire(-1);
+ 			else if (application_credit_item_id == "item_5")
+ 				playerShield.CreateNewShield(1, true);
+ 			else if (application_credit_item_id == "item_6")
+ 				playerShield.CreateNewShield(10);
+ 			else if (application_credit_item_id == "item_7")
+ 				playerShield.CreateNewShield(30);
+ 		}
+ One small caveat that will be fixed in a future version: On the PlayShop object, you must set the 
+ ShopItems count to match what's in the store (minus the game start which I don't count).
+ 		
+Splash Screen:
+BuildSettings->PlayerSettings->SplashImage
+Scroll down to 'draw mode', set for sequential. Add a second screen, drag the GameIcon image (from the package)
+to the sprite holder. Set for 4 seconds. Reorder, so GameIcon is first, Unity second (left at 2 seconds).
+Set background color to 0DBBE6
+
+Troubleshooting:
+1) Any console errors that look like html stuff, mean somewhere along the line here you're not submitting
+valid data. Usually, you're not properly initialized (shows in the inspector as a tic mark) or your 
+start button wasn't properly set up. If both those things go well, leaderboard will not present a problem.
+2) We've had an instance where the playarcade stuff just wasn't getting initialized fast enough. Rare, but
+possible. If you think this may be your problem, go to project settings->script execution order, and drag 
+both playarcade.cs and playarcadeintegration.cs over to it. That will ensure their awake/start calls are
+received before any others.
+3) Timescale can affect some calls. If your game is in total pause mode, it may not receive all data.
