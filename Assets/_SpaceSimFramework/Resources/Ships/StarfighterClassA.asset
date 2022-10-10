@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13ce0c693cc5b8c49b5736aa1aeb1b17, type: 3}
+  m_Name: StarfighterClassA
+  m_EditorClassIdentifier: 
+  modelName: StarfighterClassA
+  rarity: 0.8
+  ExternalDocking: 1
+  mooring: 2
+  CameraOffset: 20
+  Class: 1
+  Cost: 26700000
+  MaxArmor: 200
+  GeneratorPower: 750
+  GeneratorRegen: 100
+  CargoSize: 25
+  LinearForce: {x: 50, y: 50, z: 150}
+  AngularForce: {x: 50, y: 50, z: 25}
+  EquipmentSlots: 1
+  ScannerRange: 4000
+  totalMass: 200
+  maxGunMounts: 4
+  maxTurretMounts: 0

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13ce0c693cc5b8c49b5736aa1aeb1b17, type: 3}
+  m_Name: FreighterClassA
+  m_EditorClassIdentifier: 
+  modelName: FreighterClassA
+  rarity: 0.3
+  ExternalDocking: 1
+  mooring: 1
+  CameraOffset: 25
+  Class: 1
+  Cost: 65600000
+  MaxArmor: 500
+  GeneratorPower: 1500
+  GeneratorRegen: 200
+  CargoSize: 250
+  LinearForce: {x: 100, y: 100, z: 750}
+  AngularForce: {x: 1100, y: 1100, z: 55}
+  EquipmentSlots: 1
+  ScannerRange: 4000
+  totalMass: 800
+  maxGunMounts: 0
+  maxTurretMounts: 2

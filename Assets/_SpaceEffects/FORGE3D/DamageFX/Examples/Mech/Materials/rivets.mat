@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: rivets
+  m_Shader: {fileID: 4800000, guid: f7463895b1fd78d4b82650af9d8d1e7b, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Albedo:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DamageMap:
+        m_Texture: {fileID: 2800000, guid: 2d4c25ab9c8348a43a998a2f787823ca, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HeatMap:
+        m_Texture: {fileID: 2800000, guid: 3d5e183346829194caa77cd961b47c0d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicSmoothness:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BurnEdge: 0.31
+    - _BurnOffset: 0.01
+    - _BurnStr: 3547
+    - _ClipCut: 0.081
+    - _ClipDirtTiling: 0.21
+    - _ClipOffset: -0.01
+    - _ClipTiling: 0.16
+    - _DirtMetallic: 0
+    - _DirtOffset: 0.1
+    - _DirtSharpen: 1
+    - _DirtSmoothness: 0
+    - _DirtStr: 64
+    - _DirtTiling: 8
+    - _EmissionBoost: 0
+    - _HeatOffset: 0.03
+    - _HeatSharpness: 2.87
+    - _HeatStr: 3490
+    - _MaskClipValue: 0.98
+    - _Metallic: 1.06
+    - _NormalScale: 0
+    - _Smoothness: 0.44
+    - _VertexDamage: -0.15
+    - __dirty: 0
+    m_Colors:
+    - _DirtColor: {r: 0, g: 0, b: 0, a: 0}
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+    - _Tint: {r: 0.41911763, g: 0.41911763, b: 0.41911763, a: 1}
+  m_BuildTextureStacks: []

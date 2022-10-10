@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8b63e9db431a644ac880ba49a3e117, type: 3}
+  m_Name: ObjectFactory
+  m_EditorClassIdentifier: 
+  WaypointPrefab: {fileID: 1770162269849122, guid: b5eb34050389758408356929b23220c3,
+    type: 3}
+  JumpGatePrefab: {fileID: 1589194443130430, guid: eb0b1b04324cc364d8d33fc713da9f01,
+    type: 3}
+  AsteroidFieldPrefab: {fileID: 1487632604110242, guid: 10c7301dfe1e94d41ad2059639e36c74,
+    type: 3}
+  NebulaPrefab: {fileID: 5099892991003674560, guid: da230f53ddc0c4442b025b9f5764e2f0,
+    type: 3}
+  workerController: {fileID: 9100000, guid: f6830dd5c9521c44abb058b2bec1e9b2, type: 2}
+  Factions:
+  - {fileID: 11400000, guid: 395393dc04d43a740a401c46dda13fce, type: 2}
+  - {fileID: 11400000, guid: c1d160f54095a4148a3e7f575ce2156b, type: 2}
+  - {fileID: 11400000, guid: a814c6a5317e3674c8a9c316fac87895, type: 2}
+  - {fileID: 11400000, guid: b7547fd600ef73e49b267833b36e3a6b, type: 2}
+  - {fileID: 11400000, guid: f75d84b37b43dd24c9a822a3beff62b1, type: 2}
+  - {fileID: 11400000, guid: 423fb117ef4ee1443a9c490ffba66937, type: 2}
+  Stations:
+  - {fileID: 5676610055125466436, guid: adc31e60788c00f469a901f07b8dde70, type: 3}
+  - {fileID: 1194885434472487557, guid: aabaffa18bdb7d247ab8c5e2731b1a6b, type: 3}
+  - {fileID: 2249890867275649472, guid: b025f53288e459a4f97ea39798551264, type: 3}
+  - {fileID: 1279072126934206, guid: 1db13bbcb843e42439eff11a24b3c031, type: 3}
+  - {fileID: 1847812005865147479, guid: 480378a549471394686d3a45886d5d03, type: 3}
+  - {fileID: 8856047417365831334, guid: 9c9d67f6aa292b540b7355614009e500, type: 3}
+  Planets:
+  - {fileID: 1939136261883573836, guid: 86e16c354a04a814db8bc5ab87f82309, type: 3}
+  - {fileID: 3561128345696879245, guid: 6b27239264e00764c8d5974c5ae33373, type: 3}
+  Ships:
+  - {fileID: 1868469969014334, guid: 77b0a22549e6aa84082aaaa40ebb8d69, type: 3}
+  - {fileID: 3565315456883613840, guid: ad10031cebb152a429bd5b1f0155d812, type: 3}
+  - {fileID: 1198584383644126, guid: ba32e877ce98b994e98d3d6a2cee99fb, type: 3}
+  - {fileID: 1336137988947426, guid: e57242d60c6b9f64e975281eace8243b, type: 3}
+  - {fileID: 3521133524619685638, guid: e29a2fe616ee90048879347ef1555ead, type: 3}
+  - {fileID: 1140025910357742, guid: 118efdd877e08f94db8b8ba4780bf098, type: 3}
+  - {fileID: 1140025910357742, guid: b6744793eb507fd47b8252d9def06190, type: 3}
+  - {fileID: 1270961966919656, guid: 5b0101bd8248d434c9c5dcdbad76493a, type: 3}
+  - {fileID: 2675909422614822317, guid: 778f70345a3197046a2de79c80740eaa, type: 3}
+  - {fileID: 1248238604101584382, guid: ddbf436eb7f73384da283d709a8317be, type: 3}
+  - {fileID: 1713973689529458, guid: 282e78b37cbcbe64b8dce1a018379781, type: 3}
+  - {fileID: 1713973689529458, guid: e26411392f15e184582e48a150ddb278, type: 3}
+  - {fileID: 1713973689529458, guid: e0b8ce9532ffc6d47aa9411985ff13d7, type: 3}
+  - {fileID: 85085782587648032, guid: 5e939199b073ca84ba3a993f1fa5344d, type: 3}
+  SectorObjects:
+  - {fileID: 6393687806577049458, guid: 68ea88fa92905154fb8b366b8352768a, type: 3}
+  - {fileID: 6018373388837267762, guid: d1083f9d1f7813047a53c34d9463b367, type: 3}
+  - {fileID: 140078489043201243, guid: 09dcbedf85573d142bd2663e1963f07d, type: 3}
+  Weapons:
+  - {fileID: 11400000, guid: 01a0fd12b7909984eb52e3ff2e41165a, type: 2}
+  - {fileID: 11400000, guid: c3e0827be856cf941b7ef89fb5c3feb5, type: 2}
+  - {fileID: 11400000, guid: 82f083742f4ea4b45b66f42068722906, type: 2}
+  - {fileID: 11400000, guid: f7ff34941d67a13499f01e35fdc558e7, type: 2}
+  - {fileID: 11400000, guid: ed19dde43cf06ca4bb0742f2b335080e, type: 2}
+  - {fileID: 11400000, guid: 5ac28e53b555d864fb81271d7a9cf9be, type: 2}
+  Equipment:
+  - {fileID: 11400000, guid: 327586032cc09b74882f5b94d62c5f91, type: 2}
+  - {fileID: 11400000, guid: a0f265059f20b7345ae1b41cc218b277, type: 2}
+  - {fileID: 11400000, guid: f9b2d4e99c771914cb63f70f50d6f51f, type: 2}
+  - {fileID: 11400000, guid: 869dbe9d23a7b094285c95a75338560c, type: 2}
+  - {fileID: 11400000, guid: 44afcb062fefc3c4299a5487aa9d7a0d, type: 2}
+  - {fileID: 11400000, guid: 5c30aa6781b94bb4faf771b58a39f61d, type: 2}

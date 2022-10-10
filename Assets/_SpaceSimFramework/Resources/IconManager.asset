@@ -1,0 +1,169 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce9d7d4c3ce8ca1498de0397a5199d49, type: 3}
+  m_Name: IconManager
+  m_EditorClassIdentifier: 
+  Placeholder: {fileID: 21300000, guid: b7a84d4e76efd0c40992346665f34330, type: 3}
+  Wares:
+  - name: Firearms
+    icon: {fileID: 21300000, guid: 957a971dbc1c9244ab023f428ea9e293, type: 3}
+  - name: Food
+    icon: {fileID: 21300000, guid: 128942ca6fd612045a6637b5d1024ce5, type: 3}
+  - name: Consumer Goods
+    icon: {fileID: 21300000, guid: d93dbcff2f0004d4c852e0be4c0c21a5, type: 3}
+  - name: Electronics
+    icon: {fileID: 21300000, guid: 53edd8baaeb1d074f97d3ec75a43cc30, type: 3}
+  - name: Computer Components
+    icon: {fileID: 21300000, guid: dfc4392de0de53b45b9e51a9b7239e6c, type: 3}
+  - name: Ore
+    icon: {fileID: 21300000, guid: 53fcc42797a10794693630502e5c28b2, type: 3}
+  - name: Alloys
+    icon: {fileID: 21300000, guid: 069ed28dc5cc02146bbbe386b0b8958b, type: 3}
+  - name: Fuel
+    icon: {fileID: 21300000, guid: e19076f9646e0a14792deb3dffeefc81, type: 3}
+  - name: Gold
+    icon: {fileID: 21300000, guid: fd9ebdd9214067f4bac23dd0ec22533d, type: 3}
+  - name: Water
+    icon: {fileID: 21300000, guid: e94caf90b39c23241a1dcb1c3c948724, type: 3}
+  - name: Resources
+    icon: {fileID: 21300000, guid: 309aa2680782e204a8d3205d60413590, type: 3}
+  Equipment:
+  - name: Applique Armor Mk 1
+    icon: {fileID: 21300000, guid: 5269ae14e116d7b408d0a22f4d8626fc, type: 3}
+  - name: Applique Armor Mk 2
+    icon: {fileID: 21300000, guid: 5269ae14e116d7b408d0a22f4d8626fc, type: 3}
+  - name: Energy Capacity Overload Mk1
+    icon: {fileID: 21300000, guid: ebcc6a43e9c1d8e4f8230c420775f60d, type: 3}
+  - name: Energy Regen Override Mk1
+    icon: {fileID: 21300000, guid: dcf4f1371cd7b7c458d20b028790d143, type: 3}
+  - name: Shield Armor Mk 1
+    icon: {fileID: 21300000, guid: 5269ae14e116d7b408d0a22f4d8626fc, type: 3}
+  - name: Shield Armor Mk 2
+    icon: {fileID: 21300000, guid: 5269ae14e116d7b408d0a22f4d8626fc, type: 3}
+  - name: Missile
+    icon: {fileID: 21300000, guid: 1e1c8fa4791dfb74cbf283fc45f29cad, type: 3}
+  - name: Shield ForceField
+    icon: {fileID: 21300000, guid: e97a47ac23ced0e419cc8b771dd222d5, type: 3}
+  Ships:
+  - name: AmbassadorClassA
+    icon: {fileID: 21300000, guid: 1ba0c3e909961a042939cac561096276, type: 3}
+  - name: AmbassadorClassB
+    icon: {fileID: 21300000, guid: 396b25efdfc256a48aa0a90c8f1fea9f, type: 3}
+  - name: ConsulClassA
+    icon: {fileID: 21300000, guid: 5028b9525d1c236418e11b31f3fecb77, type: 3}
+  - name: ConsulClassB
+    icon: {fileID: 21300000, guid: 1a5e9560dd8aa5340bd45461e2c21ac1, type: 3}
+  - name: DiplomatClassA
+    icon: {fileID: 21300000, guid: ee88caa5a61f3eb41b7c822c34ed6a76, type: 3}
+  - name: DiplomatClassB
+    icon: {fileID: 21300000, guid: 7b0f8821f5b596b4eae4ebb25dd50dfc, type: 3}
+  - name: ExplorerClassA
+    icon: {fileID: 21300000, guid: b8fe0626c35aec940888215e1ede3c70, type: 3}
+  - name: ExplorerClassB
+    icon: {fileID: 21300000, guid: d6f7efd1be2fade4a8556e0eab088ce9, type: 3}
+  - name: FighterClassA
+    icon: {fileID: 21300000, guid: e3d457a36a2cdc442a654834712b07ad, type: 3}
+  - name: FighterClassB
+    icon: {fileID: 21300000, guid: ae4242386db2541428886fb4441f09e9, type: 3}
+  - name: FighterClassC
+    icon: {fileID: 21300000, guid: 9d7f6fe7595af4b48936147bcc874271, type: 3}
+  - name: FreighterClassA
+    icon: {fileID: 21300000, guid: 280dd13b12d25f84abd7e32bd381c4c7, type: 3}
+  - name: FreighterClassB
+    icon: {fileID: 21300000, guid: ce01dbbf5c561f943baccd62765d8945, type: 3}
+  - name: FreighterClassC
+    icon: {fileID: 21300000, guid: 87e25d2871548624f97407fe50463f06, type: 3}
+  - name: LuxuryClassB
+    icon: {fileID: 21300000, guid: 39fd5cc24e7518b428820ba23d9f270b, type: 3}
+  - name: LuxuryClassC
+    icon: {fileID: 21300000, guid: 370343251e45fe84d8c9587edc46c37b, type: 3}
+  - name: StarfighterClassA
+    icon: {fileID: 21300000, guid: 762fff5148fa35e4aa4fd4e3e4ff6a2d, type: 3}
+  - name: StarfighterClassB
+    icon: {fileID: 21300000, guid: 24784f0e4fa45d54cbd15b6be87dc492, type: 3}
+  - name: StarfighterClassC
+    icon: {fileID: 21300000, guid: 82f3022a1b019114b8ea48533b43a8ca, type: 3}
+  - name: StarfighterClassD
+    icon: {fileID: 21300000, guid: 781193d1a39ad2845aaa9e8a9a03c095, type: 3}
+  Missions:
+  - name: Assassinate
+    icon: {fileID: 21300000, guid: a19c15e8419eb6942ba3527d350f7978, type: 3}
+  - name: CargoDelivery
+    icon: {fileID: 21300000, guid: 3daf6859b09c3cd4fa2d167d7559d790, type: 3}
+  - name: Patrol
+    icon: {fileID: 21300000, guid: 999c47cc4221e654bb31647732018141, type: 3}
+  - name: Courier
+    icon: {fileID: 21300000, guid: 5a0c131b818567441b5fa703ae64cba1, type: 3}
+  Weapons:
+  - {fileID: 21300000, guid: 537d8667d74bf9446903190c8b6a59d2, type: 3}
+  - {fileID: 21300000, guid: 6081c50b7fb33204ba93f5da014557af, type: 3}
+  - {fileID: 21300000, guid: ccf5cd40895bcb04894f9f2b4176abab, type: 3}
+  - {fileID: 21300000, guid: 89283c9c13d8b814191a698a7a234023, type: 3}
+  MarkerIcons:
+  - name: Station
+    icon: {fileID: 21300000, guid: 94340bb226663d14493e98042b406b31, type: 3}
+  - name: Jumpgate
+    icon: {fileID: 21300000, guid: 90cc41e566a65c3488090eff1ede830f, type: 3}
+  - name: Planet
+    icon: {fileID: 21300000, guid: 5d8206bdafbc82044b71a2869087a6f6, type: 3}
+  players:
+  - {fileID: 21300000, guid: be548b527eb159740817480da48e4b8d, type: 3}
+  - {fileID: 21300000, guid: 3c20e8f50c3fcc74ba8e87a84de32ff0, type: 3}
+  - {fileID: 21300000, guid: c345d7ae2398cf346baf25460d4a6ab3, type: 3}
+  - {fileID: 21300000, guid: 531e0b6c1f14ca0448db6bc064c5e4af, type: 3}
+  - {fileID: 21300000, guid: 04283d993f967a5479a4f2977d055960, type: 3}
+  - {fileID: 21300000, guid: 6dd94bf8e1b4f424791a13cf558edf95, type: 3}
+  - {fileID: 21300000, guid: 2f85009d77ad0c5429356083dcd83d3a, type: 3}
+  - {fileID: 21300000, guid: b6874535d46fffc438731fa12cab1d98, type: 3}
+  - {fileID: 21300000, guid: f54c8e89e71c2de4a95288917b9f28ec, type: 3}
+  - {fileID: 21300000, guid: adb71b447591cb04da41ac95b6a15cb6, type: 3}
+  - {fileID: 21300000, guid: 43d638fbd2b74534c8f4259037df00ec, type: 3}
+  - {fileID: 21300000, guid: 653061fea2f1fe241bd4b7569e21bdca, type: 3}
+  - {fileID: 21300000, guid: 0957d99ebfff7574b966f396c3360d1a, type: 3}
+  - {fileID: 21300000, guid: 1c0c65b83b41e564e9dd3ccee1d42486, type: 3}
+  - {fileID: 21300000, guid: 48d4e33e15455e74b9190bc6a0a8a3c4, type: 3}
+  - {fileID: 21300000, guid: 84ff4dad66a573c469023883d5b13842, type: 3}
+  - {fileID: 21300000, guid: fd4a059431ff07545a6fc1c9cf0e2b93, type: 3}
+  - {fileID: 21300000, guid: 050672a1212e18445b987c41c08a2b96, type: 3}
+  - {fileID: 21300000, guid: 1a1e30c1307f68345a76a603b1f667dc, type: 3}
+  - {fileID: 21300000, guid: 725c92eebb1b08e4eae7af5346059ce5, type: 3}
+  - {fileID: 21300000, guid: 9ac80a5dbd9387c449d5ce64a4743ce6, type: 3}
+  - {fileID: 21300000, guid: 1b2cbc90f829b0d41a7e3399b3b201e7, type: 3}
+  - {fileID: 21300000, guid: 9850645614d344544a820dd9af31381e, type: 3}
+  - {fileID: 21300000, guid: 9c85cf595c734c9409ea812971f9c2ca, type: 3}
+  - {fileID: 21300000, guid: bbbfdc4b149e7b640ab48ac82812b8af, type: 3}
+  - {fileID: 21300000, guid: 433eabf4b8bb0f848b70be8558a01c2e, type: 3}
+  - {fileID: 21300000, guid: 525f1298eb345b34daa53e39f7c8e642, type: 3}
+  - {fileID: 21300000, guid: ff45bc7e26d2bd7498817a1824603328, type: 3}
+  - {fileID: 21300000, guid: 66d88b039082daf47bea1cd8c375885d, type: 3}
+  - {fileID: 21300000, guid: 68b0675c05597b742b9f4b4c231a5dc9, type: 3}
+  - {fileID: 21300000, guid: 4e7494b36097fcc4fa4d3bd611d7022c, type: 3}
+  - {fileID: 21300000, guid: 2484deb53489f80448aced0a3faf940a, type: 3}
+  - {fileID: 21300000, guid: 590950b8a5b216048829cb373c258c05, type: 3}
+  - {fileID: 21300000, guid: 1ec93a4d319127a459199256c68f2cb2, type: 3}
+  - {fileID: 21300000, guid: 8326e933187d8a645898dc7e9810bf6f, type: 3}
+  - {fileID: 21300000, guid: 48bcf37c5147cb046a0031dd0c884110, type: 3}
+  - {fileID: 21300000, guid: 6e9465b795afa694e9c0da1c39783722, type: 3}
+  - {fileID: 21300000, guid: ac3acff7c4f3a164d8372da6b7eb1c7e, type: 3}
+  - {fileID: 21300000, guid: 727e2d35fc7fcca439d08fc516f58bb3, type: 3}
+  - {fileID: 21300000, guid: b857127b4e5bb874aa0baa3804553c3e, type: 3}
+  - {fileID: 21300000, guid: 29818224921166b4e823bb5eb452e666, type: 3}
+  - {fileID: 21300000, guid: c5169a79420c7684d877e88f87fac6be, type: 3}
+  - {fileID: 21300000, guid: 784cb39a996488f47af8efff38c565eb, type: 3}
+  - {fileID: 21300000, guid: 3be60fa9206ed214ab5524730d8eb443, type: 3}
+  - {fileID: 21300000, guid: 245af045c3de85444ae54eb3e4faed2f, type: 3}
+  - {fileID: 21300000, guid: 59574cd66651cfc4e865428eed5a200d, type: 3}
+  - {fileID: 21300000, guid: 3e1fbe28a0bddf549a4efc5b6ce1822b, type: 3}
+  - {fileID: 21300000, guid: c1a62d3746d0cfa459ce655cd5c62cb1, type: 3}
+  - {fileID: 21300000, guid: 827f987b29e59cd47b73cd071c87a961, type: 3}
+  - {fileID: 21300000, guid: f1d4f57408c86a24aba37f58eaf69018, type: 3}
+  - {fileID: 21300000, guid: f867da4fbaa0f014c9b39efe03d4445c, type: 3}

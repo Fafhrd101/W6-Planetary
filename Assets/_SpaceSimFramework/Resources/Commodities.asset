@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f76199d83ab73e94b8d2277661d19879, type: 3}
+  m_Name: Commodities
+  m_EditorClassIdentifier: 
+  CommodityTypes:
+  - Name: NaturalResources
+    MinPrice: 50
+    MaxPrice: 75
+    description: 
+    creationMethod: 0
+    icon: {fileID: 21300000, guid: 309aa2680782e204a8d3205d60413590, type: 3}
+  - Name: Water
+    MinPrice: 10
+    MaxPrice: 25
+    description: 
+    creationMethod: 3
+    icon: {fileID: 21300000, guid: e94caf90b39c23241a1dcb1c3c948724, type: 3}
+  - Name: Food
+    MinPrice: 10
+    MaxPrice: 25
+    description: 
+    creationMethod: 0
+    icon: {fileID: 21300000, guid: 128942ca6fd612045a6637b5d1024ce5, type: 3}
+  - Name: Ore
+    MinPrice: 50
+    MaxPrice: 150
+    description: 
+    creationMethod: 1
+    icon: {fileID: 21300000, guid: 53fcc42797a10794693630502e5c28b2, type: 3}
+  - Name: Alloys
+    MinPrice: 76
+    MaxPrice: 140
+    description: 
+    creationMethod: 4
+    icon: {fileID: 21300000, guid: 069ed28dc5cc02146bbbe386b0b8958b, type: 3}
+  - Name: Gold
+    MinPrice: 65
+    MaxPrice: 97
+    description: 
+    creationMethod: 1
+    icon: {fileID: 21300000, guid: fd9ebdd9214067f4bac23dd0ec22533d, type: 3}
+  - Name: Fuel
+    MinPrice: 80
+    MaxPrice: 130
+    description: 
+    creationMethod: 4
+    icon: {fileID: 21300000, guid: e19076f9646e0a14792deb3dffeefc81, type: 3}
+  - Name: ConsumerGoods
+    MinPrice: 75
+    MaxPrice: 200
+    description: 
+    creationMethod: 2
+    icon: {fileID: 21300000, guid: d93dbcff2f0004d4c852e0be4c0c21a5, type: 3}
+  - Name: Electronics
+    MinPrice: 75
+    MaxPrice: 200
+    description: 
+    creationMethod: 2
+    icon: {fileID: 21300000, guid: 53edd8baaeb1d074f97d3ec75a43cc30, type: 3}
+  - Name: Firearms
+    MinPrice: 75
+    MaxPrice: 150
+    description: 
+    creationMethod: 2
+    icon: {fileID: 21300000, guid: 957a971dbc1c9244ab023f428ea9e293, type: 3}
+  - Name: ComputerComponents
+    MinPrice: 150
+    MaxPrice: 300
+    description: 
+    creationMethod: 2
+    icon: {fileID: 21300000, guid: 1e1c8fa4791dfb74cbf283fc45f29cad, type: 3}
+  - Name: Helium
+    MinPrice: 50
+    MaxPrice: 150
+    description: 
+    creationMethod: 3
+    icon: {fileID: 21300000, guid: e19076f9646e0a14792deb3dffeefc81, type: 3}
+  - Name: MarkI Missile
+    MinPrice: 350
+    MaxPrice: 550
+    description: 
+    creationMethod: 2
+    icon: {fileID: 21300000, guid: 1e1c8fa4791dfb74cbf283fc45f29cad, type: 3}
+  - Name: Information
+    MinPrice: 500
+    MaxPrice: 1500
+    description: 
+    creationMethod: 2
+    icon: {fileID: 21300000, guid: 1e1c8fa4791dfb74cbf283fc45f29cad, type: 3}

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 993c553f9a7f87547bfad65520b9c9e7, type: 3}
+  m_Name: Planet-Exploration
+  m_EditorClassIdentifier: 
+  modelName: Planet2
+  faction: {fileID: 11400000, guid: a814c6a5317e3674c8a9c316fac87895, type: 2}
+  planetType: 1
+  planetMaterial: {fileID: 2100000, guid: f90e6fa24596acd41b71b58851f92556, type: 2}
+  numMoons: 0
+  size: 3
+  population: 6
+  function: 1
+  lawLevel: 3
+  techLevel: 3
+  shipyard: 1
+  ring: 0
+  gasGiant: 0
+  storm: 0
+  clouds: 0
+  atmosphere: 0
